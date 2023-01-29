@@ -3,7 +3,7 @@ public class seminar2_2 {
         String strDir = "{\"name\" : \"site_3\",\"version\": \"1.0.0\",\"description\": \"text\",\"main\": \"index.js\"}";
         String str = strDir.replace("{", "").replace("}", "")
                 .replace("\"", "");
-        StringBuilder string = new StringBuilder();
+        
         StringBuilder finalStr = new StringBuilder();
         String[] newStr = str.split(",");
 
